@@ -1,0 +1,100 @@
+/*
+    Material Comunity Animated
+    Author: Diego Rafael Silva Santana
+    Objetive: The project is based on sass for simplified screen transition animations.
+    version: 0.0.1
+*/
+
+
+/* Keyframes */
+
+@keyframes slide3dLeft {
+    from {
+        margin-left: -100%;
+        transform: perspective(80pc) rotateY(-90deg);
+        opacity: 0;
+    }
+    to {
+        transform: perspective(80pc) rotateY(0deg);
+    }
+}
+
+@keyframes slide3dRight {
+    from {
+        margin-left: 100%;
+        transform: perspective(80pc) rotateY(90deg);
+        opacity: 0;
+    }
+    to {
+        transform: perspective(80pc) rotateY(0deg);
+    }
+}
+
+@keyframes slideLeft {
+    from {
+        margin-left: -100%;
+        opacity: 0;
+    }
+    to {
+        transform: perspective(80pc) rotateY(0deg);
+    }
+}
+
+@keyframes slideRight {
+    from {
+        margin-left: 100%;
+        opacity: 0;
+    }
+    to {
+        transform: perspective(80pc) rotateY(0deg);
+    }
+}
+
+@keyframes slideTop {
+    from {
+        margin-top: -100%;
+        opacity: 0;
+    }
+}
+
+@keyframes slideBottom {
+    from {
+        margin-top: 100%;
+        opacity: 0;
+    }
+    to {
+        transform: perspective(80pc) rotateY(0deg);
+    }
+}
+
+@keyframes zoomElastic {
+    from {
+        transform: scale(0.2);
+        opacity: 0;
+        border-radius: 100%;
+    }
+    80% {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0.2);
+    }
+}
+
+@keyframes shake {
+    from {
+        transform: rotate(-3deg);
+    }
+    to {
+        transform: rotate(3deg);
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+}

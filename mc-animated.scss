@@ -1,0 +1,65 @@
+/*
+    Material Comunity Animated
+    Author: Diego Rafael Silva Santana
+    Objetive: The project is based on sass for simplified screen transition animations.
+    version: 0.0.1
+
+*/
+
+@import "./mdc-animated-keyframes.scss";
+// Main call to mc-animated
+.mc-animated {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    // Patterns of animation
+    animation-duration: 0.375s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    // Speeds
+    &.test {
+        animation-duration: 5s;
+    }
+    &.slow {
+        animation-duration: 0.575s;
+    }
+    &.fast {
+        animation-duration: 0.175s;
+    }
+    // Simulated output effect applicable to all animation classes
+    &.reverse {
+        animation-direction: reverse;
+    }
+    // Calls to animations based on keyframes
+    &.anim-shake {
+        animation-name: shake;
+        animation-direction: alternate;
+        animation-iteration-count: 10;
+        animation-fill-mode: initial;
+        animation-duration: 0.100s;
+    }
+    &.anim-fade {
+        animation-name: fade;
+    }
+    &.anim-zoom {
+        animation-name: zoomElastic;
+    }
+    &.anim-slide-left {
+        animation-name: slideLeft;
+    }
+    &.anim-slide-right {
+        animation-name: slideRight;
+    }
+    &.anim-slide-top {
+        animation-name: slideTop;
+    }
+    &.anim-slide-bottom {
+        animation-name: slideBottom;
+    }
+    &.anim-slide3d-left {
+        animation-name: slide3dLeft;
+    }
+    &.anim-slide3d-right {
+        animation-name: slide3dRight;
+    }
+}
