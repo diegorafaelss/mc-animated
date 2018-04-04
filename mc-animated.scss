@@ -6,7 +6,6 @@
 
 */
 
-@import "./mdc-animated-keyframes.scss";
 // Main call to mc-animated
 .mc-animated {
     position: fixed;
@@ -14,6 +13,7 @@
     width: 100vw;
     // Patterns of animation
     animation-duration: 0.375s;
+    animation-delay: 0s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     // Speeds
@@ -26,6 +26,16 @@
     &.fast {
         animation-duration: 0.175s;
     }
+    //  Delay start speed
+    &.delay-test {
+        animation-delay: 5s;
+    }
+    &.delay-slow {
+        animation-delay: 0.575s;
+    }
+    &.delay-fast {
+        animation-delay: 0.175s;
+    }
     // Simulated output effect applicable to all animation classes
     &.reverse {
         animation-direction: reverse;
@@ -36,7 +46,7 @@
         animation-direction: alternate;
         animation-iteration-count: 10;
         animation-fill-mode: initial;
-        animation-duration: 0.100s;
+        animation-duration: 0.1s;
     }
     &.anim-fade {
         animation-name: fade;
