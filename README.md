@@ -2,7 +2,7 @@
 
 The project consists of designing a simple structure and animations of components and screen transitions, using a declarative form of css classes.
 
-**Ex:**
+**Ex.:**
 
 `<div class="mc-animated anim-fade">`Hello World!`</div>`
 
@@ -17,7 +17,7 @@ To start we always use _the mc-animated_ class followed by some animation class 
 
 For practically every class of animation you can use the use of the _reverse_ class so that the animation is reversed.
 
-**Ex:**
+**Ex.:**
 
 _mc-animated anim-fade reverse_
 
