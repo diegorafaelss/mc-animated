@@ -1,6 +1,6 @@
 # MCA - Material Community Animated
 
-The project consists of designing a simple structure and animations of components and screen transitions, using a declarative form of css classes.
+The project consists of designing a simple structure and animations of components and screen transitions, using a declarative form of css class.
 
 **Ex.:**
 
