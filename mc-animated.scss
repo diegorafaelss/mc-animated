@@ -1,5 +1,5 @@
 /*
-    Material Comunity Animated
+    Material Community Animated
     Author: Diego Rafael Silva Santana
     Objetive: The project is based on sass for simplified screen transition animations.
     version: 0.0.1
@@ -9,29 +9,29 @@
 // Main call to mc-animated
 .mc-animated {
     // Patterns of animation
-    animation-duration: 0.375s;
+    animation-duration: 0.225s;
     animation-delay: 0s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     // Speeds
     &.test {
-        animation-duration: 5s;
+        animation-duration: 4s;
     }
     &.slow {
-        animation-duration: 0.575s;
+        animation-duration: 0.325s;
     }
     &.fast {
-        animation-duration: 0.175s;
+        animation-duration: 0.125s;
     }
     //  Delay start speed
     &.delay-test {
-        animation-delay: 5s;
+        animation-delay: 4s;
     }
     &.delay-slow {
-        animation-delay: 0.575s;
+        animation-delay: 0.325s;
     }
     &.delay-fast {
-        animation-delay: 0.175s;
+        animation-delay: 0.125s;
     }
     // Simulated output effect applicable to all animation classes
     &.reverse {
@@ -49,6 +49,9 @@
         animation-name: fade;
     }
     &.anim-zoom {
+        animation-name: zoom;
+    }
+    &.anim-zoom-elastic {
         animation-name: zoomElastic;
     }
     &.anim-slide-left {
@@ -60,6 +63,9 @@
     &.anim-slide-top {
         animation-name: slideTop;
     }
+    &.anim-slide-top-short {
+        animation-name: slideTopShort;
+    }
     &.anim-slide-bottom {
         animation-name: slideBottom;
     }
@@ -68,5 +74,11 @@
     }
     &.anim-slide3d-right {
         animation-name: slide3dRight;
+    }
+    &.anim-flip-left {
+        animation-name: flipLeft;
+    }
+    &.anim-flip-Right {
+        animation-name: flipRight;
     }
 }
