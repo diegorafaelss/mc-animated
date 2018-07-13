@@ -6,7 +6,7 @@ The project consists of designing a simple structure and animations of component
 
 `<div class="mc-animated anim-fade">`Hello World!`</div>`
 
-Fade-in effect: _mc-animated anim-fade_\
+Fade-in effect: _mc-animated anim-fade-in_\
 Fade-out effect: _mc-animated anim-fade reverse_
 
 # Let's go
@@ -19,7 +19,7 @@ For practically every class of animation you can use the use of the _reverse_ cl
 
 **Ex.:**
 
-_mc-animated anim-fade reverse_
+_mc-animated anim-fade-in reverse_
 
 
 ## Basic animation speeds
@@ -32,8 +32,8 @@ _test_ - 4 seconds. Used for debug detail how the animation is executed
 
 **Ex.:**
 
-_mc-animated anim-fade slow_\
-_mc-animated anim-fade reverse fast_
+_mc-animated anim-fade-in slow_\
+_mc-animated anim-fade-in reverse fast_
 
 ## Basic start delay of animations
 
@@ -43,8 +43,8 @@ _delay-test_ - 4 seconds. Used for debug detail how the animation is executed
 
 **Ex.:**
 
-_mc-animated anim-fade delay-slow_\
-_mc-animated anim-fade delay-fast_
+_mc-animated anim-fade-in delay-slow_\
+_mc-animated anim-fade-in delay-fast_
 
 
 
