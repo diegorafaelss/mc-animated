@@ -57,7 +57,7 @@ anim-fade-out_
 
 **Pack Shake**
 
-anim-shake\
+anim-shake
 
 **Pack Slide Fade 3D**
 
