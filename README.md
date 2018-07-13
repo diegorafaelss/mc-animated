@@ -52,52 +52,52 @@ _mc-animated anim-fade delay-fast_
 
 **Pack Fade basic**
 
-_anim-fade-in\
-_anim-fade-out\
+anim-fade-in\
+anim-fade-out\
 
 **Pack Shake**
 
-_anim-shake\
+anim-shake\
 
 **Pack Slide Fade 3D**
 
-_anim-slide-fade-3d-left\
-_anim-slide-fade-3d-right\
-_anim-slide-fade-3d-top\
-_anim-slide-fade-3d-bottom\
+anim-slide-fade-3d-left\
+anim-slide-fade-3d-right\
+anim-slide-fade-3d-top\
+anim-slide-fade-3d-bottom\
 
 **Pack Slide Fade**
 
-_anim-slide-fade-left\
-_anim-slide-fade-right\
-_anim-slide-fade-top\
-_anim-slide-fade-bottom\
+anim-slide-fade-left\
+anim-slide-fade-right\
+anim-slide-fade-top\
+anim-slide-fade-bottom\
 
 **Pack Slide Short**
 
-_anim-slide-short-left\
-_anim-slide-short-right\
-_anim-slide-short-top\
-_anim-slide-short-bottom\
+anim-slide-short-left\
+anim-slide-short-right\
+anim-slide-short-top\
+anim-slide-short-bottom\
 
 **Pack Slide**
 
-_anim-slide-left\
-_anim-slide-right\
-_anim-slide-top\
-_anim-slide-bottom\
+anim-slide-left\
+anim-slide-right\
+anim-slide-top\
+anim-slide-bottom\
 
 **Pack Zoom Elastic**
 
-_anim-zoom-elastic-in\
-_anim-zoom-elastic-Out\
+anim-zoom-elastic-in\
+anim-zoom-elastic-Out\
 
 **Pack Zoom Fade**
 
-_anim-zoom-fade-in\
-_anim-zoom-fade-out\
+anim-zoom-fade-in\
+anim-zoom-fade-out\
 
 **Pack Zoom basic**
 
-_anim-zoom-in\
-_anim-zoom-Out\
+anim-zoom-in\
+anim-zoom-Out\
