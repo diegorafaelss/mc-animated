@@ -4,7 +4,7 @@ The project consists of designing a simple structure and animations of component
 
 **Ex.:**
 
-`<div class="mc-animated anim-fade">`Hello World!`</div>`
+`<div class="mc-animated anim-fade-in">`Hello World!`</div>`
 
 Fade-in effect: _mc-animated anim-fade-in_\
 Fade-out effect: _mc-animated anim-fade reverse_
