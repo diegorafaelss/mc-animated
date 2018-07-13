@@ -53,7 +53,7 @@ _mc-animated anim-fade delay-fast_
 **Pack Fade basic**
 
 anim-fade-in\
-anim-fade-out\
+anim-fade-out_
 
 **Pack Shake**
 
@@ -64,40 +64,40 @@ anim-shake\
 anim-slide-fade-3d-left\
 anim-slide-fade-3d-right\
 anim-slide-fade-3d-top\
-anim-slide-fade-3d-bottom\
+anim-slide-fade-3d-bottom_
 
 **Pack Slide Fade**
 
 anim-slide-fade-left\
 anim-slide-fade-right\
 anim-slide-fade-top\
-anim-slide-fade-bottom\
+anim-slide-fade-bottom_
 
 **Pack Slide Short**
 
 anim-slide-short-left\
 anim-slide-short-right\
 anim-slide-short-top\
-anim-slide-short-bottom\
+anim-slide-short-bottom_
 
 **Pack Slide**
 
 anim-slide-left\
 anim-slide-right\
 anim-slide-top\
-anim-slide-bottom\
+anim-slide-bottom_
 
 **Pack Zoom Elastic**
 
 anim-zoom-elastic-in\
-anim-zoom-elastic-Out\
+anim-zoom-elastic-Out_
 
 **Pack Zoom Fade**
 
 anim-zoom-fade-in\
-anim-zoom-fade-out\
+anim-zoom-fade-out_
 
 **Pack Zoom basic**
 
 anim-zoom-in\
-anim-zoom-Out\
+anim-zoom-Out_
