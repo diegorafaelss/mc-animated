@@ -64,40 +64,40 @@ anim-shake\
 anim-slide-fade-3d-left\
 anim-slide-fade-3d-right\
 anim-slide-fade-3d-top\
-anim-slide-fade-3d-bottom_
+anim-slide-fade-3d-bottom
 
 **Pack Slide Fade**
 
 anim-slide-fade-left\
 anim-slide-fade-right\
 anim-slide-fade-top\
-anim-slide-fade-bottom_
+anim-slide-fade-bottom
 
 **Pack Slide Short**
 
 anim-slide-short-left\
 anim-slide-short-right\
 anim-slide-short-top\
-anim-slide-short-bottom_
+anim-slide-short-bottom
 
 **Pack Slide**
 
 anim-slide-left\
 anim-slide-right\
 anim-slide-top\
-anim-slide-bottom_
+anim-slide-bottom
 
 **Pack Zoom Elastic**
 
 anim-zoom-elastic-in\
-anim-zoom-elastic-Out_
+anim-zoom-elastic-Out
 
 **Pack Zoom Fade**
 
 anim-zoom-fade-in\
-anim-zoom-fade-out_
+anim-zoom-fade-out
 
 **Pack Zoom basic**
 
 anim-zoom-in\
-anim-zoom-Out_
+anim-zoom-Out
