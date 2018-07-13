@@ -53,7 +53,7 @@ _mc-animated anim-fade delay-fast_
 **Pack Fade basic**
 
 anim-fade-in\
-anim-fade-out_
+anim-fade-out
 
 **Pack Shake**
 
