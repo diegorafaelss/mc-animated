@@ -1,0 +1,23 @@
+// Call animations
+&.anim-zoom-fade-in {
+    animation-name: zoomFadeIn;
+}
+
+&.anim-zoom-fade-out {
+    animation-name: zoomFadeOut;
+}
+
+@keyframes zoomFadeIn {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+// Keyframes
+@keyframes zoomFadeOut {
+    to {
+        transform: scale(0);
+        opacity: 0;
+    }
+}

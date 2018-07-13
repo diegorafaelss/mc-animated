@@ -1,0 +1,18 @@
+// Call animations
+&.anim-shake {
+    animation-name: shake;
+    animation-direction: alternate;
+    animation-iteration-count: 10;
+    animation-fill-mode: initial;
+    animation-duration: 0.1s;
+}
+
+// Keyframes
+@keyframes shake {
+    from {
+        transform: rotate(-3deg);
+    }
+    to {
+        transform: rotate(3deg);
+    }
+}

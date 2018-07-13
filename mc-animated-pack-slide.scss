@@ -1,0 +1,41 @@
+// Call animations
+&.anim-slide-left {
+    animation-name: slideLeft;
+}
+
+&.anim-slide-right {
+    animation-name: slideRight;
+}
+
+&.anim-slide-top {
+    animation-name: slideTop;
+}
+
+&.anim-slide-bottom {
+    animation-name: slideBottom;
+}
+
+// Keyframes
+@keyframes slideLeft {
+    from {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes slideTop {
+    from {
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes slideBottom {
+    from {
+        transform: translateY(100%);
+    }
+}

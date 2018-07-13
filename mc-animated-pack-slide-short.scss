@@ -1,0 +1,41 @@
+// Call animations
+&.anim-slide-short-left {
+    animation-name: slideShortLeft;
+}
+
+&.anim-slide-short-right {
+    animation-name: slideShortRight;
+}
+
+&.anim-slide-short-top {
+    animation-name: slideShortTop;
+}
+
+&.anim-slide-short-bottom {
+    animation-name: slideShortBottom;
+}
+
+// Keyframes
+@keyframes slideShortLeft {
+    from {
+        transform: translateX(-30%);
+    }
+}
+
+@keyframes slideShortRight {
+    from {
+        transform: translateX(30%);
+    }
+}
+
+@keyframes slideShortTop {
+    from {
+        transform: translateY(-30%);
+    }
+}
+
+@keyframes slideShortBottom {
+    from {
+        transform: translateY(30%);
+    }
+}

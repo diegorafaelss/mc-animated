@@ -1,0 +1,21 @@
+// Call animations
+&.anim-zoom-in {
+    animation-name: zoomIn;
+}
+
+&.anim-zoom-out {
+    animation-name: zoomOut;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0);
+    }
+}
+
+// Keyframes
+@keyframes zoomOut {
+    to {
+        transform: scale(0);
+    }
+}

@@ -1,0 +1,45 @@
+// Call animations
+&.anim-slide-fade-3d-left {
+    animation-name: slideFade3dLeft;
+}
+
+&.anim-slide-fade-3d-right {
+    animation-name: slideFade3dRight;
+}
+
+&.anim-slide-fade-3d-top {
+    animation-name: slideFade3dTop;
+}
+
+&.anim-slide-fade-3d-bottom {
+    animation-name: slideFade3dBottom;
+}
+
+// Keyframes
+@keyframes slideFade3dLeft {
+    from {
+        transform: translateX(-50%) rotateY(-90deg);
+        opacity: 0;
+    }
+}
+
+@keyframes slideFade3dRight {
+    from {
+        transform: translateX(50%) rotateY(-90deg);
+        opacity: 0;
+    }
+}
+
+@keyframes slideFade3dTop {
+    from {
+        transform: translateY(-50%) rotateX(-90deg);
+        opacity: 0;
+    }
+}
+
+@keyframes slideFade3dBottom {
+    from {
+        transform: translateY(50%) rotateX(-90deg);
+        opacity: 0;
+    }
+}

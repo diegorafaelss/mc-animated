@@ -1,0 +1,21 @@
+// Call animations
+&.anim-fade-in {
+    animation-name: fadeIn;
+}
+
+&.anim-fade-in {
+    animation-name: fadeOut;
+}
+
+// Keyframes
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+    }
+}

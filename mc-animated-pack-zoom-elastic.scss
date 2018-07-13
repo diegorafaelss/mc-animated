@@ -1,0 +1,31 @@
+// Call animations
+&.anim-zoom-elastic-in {
+    animation-name: zoomElasticIn;
+}
+
+&.anim-zoom-elastic-out {
+    animation-name: zoomElasticOut;
+}
+
+// Keyframes
+@keyframes zoomElasticIn {
+    from {
+        transform: scale(0);
+        opacity: 0;
+        border-radius: 100%;
+    }
+    80% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes zoomElasticOut {
+    20% {
+        transform: scale(1.1);
+    }
+    to {
+        transform: scale(0);
+        opacity: 0;
+        border-radius: 100%;
+    }
+}
