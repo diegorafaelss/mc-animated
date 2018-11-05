@@ -100,4 +100,4 @@ anim-zoom-fade-out
 **Pack Zoom basic**
 
 anim-zoom-in\
-anim-zoom-Out
+anim-zoom-out
