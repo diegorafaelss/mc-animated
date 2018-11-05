@@ -37,6 +37,8 @@ _mc-animated anim-fade-in reverse fast_
 
 ## Basic start delay of animations
 
+Default speed: 0.225 milleseconds\
+
 _delay-slow_ - 0.325 milleseconds\
 _delay-fast_ - 0.125 milleseconds\
 _delay-test_ - 4 seconds. Used for debug detail how the animation is executed
