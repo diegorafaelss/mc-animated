@@ -1,0 +1,177 @@
+/*
+    Material Community Animated
+    Author: Diego Rafael Silva Santana
+    Objetive: The project is based on sass for simplified screen transition animations.
+    version: 0.0.2
+    Full documentation: https://github.com/diegorafaelss/mc-animated
+*/
+.mc-animated {
+  animation-duration: 0.225s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+  .mc-animated.test {
+    animation-duration: 4s; }
+  .mc-animated.slow {
+    animation-duration: 0.325s; }
+  .mc-animated.fast {
+    animation-duration: 0.125s; }
+  .mc-animated.delay-test {
+    animation-delay: 4s; }
+  .mc-animated.delay-slow {
+    animation-delay: 0.325s; }
+  .mc-animated.delay-fast {
+    animation-delay: 0.125s; }
+  .mc-animated.reverse {
+    animation-direction: reverse; }
+  .mc-animated.anim-fade-in {
+    animation-name: fadeIn; }
+  .mc-animated.anim-fade-in {
+    animation-name: fadeOut; }
+@keyframes fadeIn {
+  from {
+    opacity: 0; } }
+@keyframes fadeOut {
+  to {
+    opacity: 0; } }
+  .mc-animated.anim-shake {
+    animation-name: shake;
+    animation-direction: alternate;
+    animation-iteration-count: 10;
+    animation-fill-mode: initial;
+    animation-duration: 0.1s; }
+@keyframes shake {
+  from {
+    transform: rotate(-3deg); }
+  to {
+    transform: rotate(3deg); } }
+  .mc-animated.anim-slide-fade-3d-left {
+    animation-name: slideFade3dLeft; }
+  .mc-animated.anim-slide-fade-3d-right {
+    animation-name: slideFade3dRight; }
+  .mc-animated.anim-slide-fade-3d-top {
+    animation-name: slideFade3dTop; }
+  .mc-animated.anim-slide-fade-3d-bottom {
+    animation-name: slideFade3dBottom; }
+@keyframes slideFade3dLeft {
+  from {
+    transform: translateX(-50%) rotateY(-90deg);
+    opacity: 0; } }
+@keyframes slideFade3dRight {
+  from {
+    transform: translateX(50%) rotateY(-90deg);
+    opacity: 0; } }
+@keyframes slideFade3dTop {
+  from {
+    transform: translateY(-50%) rotateX(-90deg);
+    opacity: 0; } }
+@keyframes slideFade3dBottom {
+  from {
+    transform: translateY(50%) rotateX(-90deg);
+    opacity: 0; } }
+  .mc-animated.anim-slide-fade-left {
+    animation-name: slideFadeLeft; }
+  .mc-animated.anim-slide-fade-right {
+    animation-name: slideFadeRight; }
+  .mc-animated.anim-slide-fade-top {
+    animation-name: slideFadeTop; }
+  .mc-animated.anim-slide-fade-bottom {
+    animation-name: slideFadeBottom; }
+@keyframes slideFadeLeft {
+  from {
+    transform: translateX(-50%);
+    opacity: 0; } }
+@keyframes slideFadeRight {
+  from {
+    transform: translateX(50%);
+    opacity: 0; } }
+@keyframes slideFadeTop {
+  from {
+    transform: translateY(-50%);
+    opacity: 0; } }
+@keyframes slideFadeBottom {
+  from {
+    transform: translateY(50%);
+    opacity: 0; } }
+  .mc-animated.anim-slide-short-left {
+    animation-name: slideShortLeft; }
+  .mc-animated.anim-slide-short-right {
+    animation-name: slideShortRight; }
+  .mc-animated.anim-slide-short-top {
+    animation-name: slideShortTop; }
+  .mc-animated.anim-slide-short-bottom {
+    animation-name: slideShortBottom; }
+@keyframes slideShortLeft {
+  from {
+    transform: translateX(-30%); } }
+@keyframes slideShortRight {
+  from {
+    transform: translateX(30%); } }
+@keyframes slideShortTop {
+  from {
+    transform: translateY(-30%); } }
+@keyframes slideShortBottom {
+  from {
+    transform: translateY(30%); } }
+  .mc-animated.anim-slide-left {
+    animation-name: slideLeft; }
+  .mc-animated.anim-slide-right {
+    animation-name: slideRight; }
+  .mc-animated.anim-slide-top {
+    animation-name: slideTop; }
+  .mc-animated.anim-slide-bottom {
+    animation-name: slideBottom; }
+@keyframes slideLeft {
+  from {
+    transform: translateX(-100%); } }
+@keyframes slideRight {
+  from {
+    transform: translateX(100%); } }
+@keyframes slideTop {
+  from {
+    transform: translateY(-100%); } }
+@keyframes slideBottom {
+  from {
+    transform: translateY(100%); } }
+  .mc-animated.anim-zoom-elastic-in {
+    animation-name: zoomElasticIn; }
+  .mc-animated.anim-zoom-elastic-out {
+    animation-name: zoomElasticOut; }
+@keyframes zoomElasticIn {
+  from {
+    transform: scale(0);
+    opacity: 0;
+    border-radius: 100%; }
+  80% {
+    transform: scale(1.1); } }
+@keyframes zoomElasticOut {
+  20% {
+    transform: scale(1.1); }
+  to {
+    transform: scale(0);
+    opacity: 0;
+    border-radius: 100%; } }
+  .mc-animated.anim-zoom-fade-in {
+    animation-name: zoomFadeIn; }
+  .mc-animated.anim-zoom-fade-out {
+    animation-name: zoomFadeOut; }
+@keyframes zoomFadeIn {
+  from {
+    transform: scale(0);
+    opacity: 0; } }
+@keyframes zoomFadeOut {
+  to {
+    transform: scale(0);
+    opacity: 0; } }
+  .mc-animated.anim-zoom-in {
+    animation-name: zoomIn; }
+  .mc-animated.anim-zoom-out {
+    animation-name: zoomOut; }
+@keyframes zoomIn {
+  from {
+    transform: scale(0); } }
+@keyframes zoomOut {
+  to {
+    transform: scale(0); } }
+
+/*# sourceMappingURL=mc.css.map */
